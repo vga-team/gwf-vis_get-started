@@ -2,6 +2,7 @@
 import vga
 from gwfvis import conf as gwfvis_conf
 import json
+import os
 
 # %% consts
 # with this config, we should select the `out` directory as root directory when the vis loads
