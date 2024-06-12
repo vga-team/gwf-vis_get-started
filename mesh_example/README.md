@@ -1,7 +1,8 @@
-In this MESH example, the raw dataset is stored in the `raw` directory as a GIT submodule.
+In this MESH example, the raw dataset is stored in the `raw` directory as a GIT submodule. 
 
 ## Workflow
 
+1. Make sure the GIT submodule is checked out. If not, it can be checked out by using `git submodule update --init --recursive`.
 1. Install the dependencies. A `requirement.txt` is provided.
 1. Run `process_data.py`. It would generate a `mesh.gwfvisdb` file in the `out` directory.
 1. Run `generate_vis.py`. It would generate a `mesh.vgaconf` file in the `out` directory.
